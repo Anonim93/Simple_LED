@@ -664,6 +664,18 @@
 			)
 		)
 	)
+	(junction
+		(at 80.01 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40fca56a-9a63-4948-a719-0ab9ea88d32b")
+	)
+	(junction
+		(at 80.01 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b0510d3-e4ee-45c5-b7ed-204fb81fc9fe")
+	)
 	(wire
 		(pts
 			(xy 80.01 82.55) (xy 80.01 88.9)
@@ -686,6 +698,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2dd15c-91cd-4c7f-83ae-76fb84a1daaa")
+	)
+	(wire
+		(pts
 			(xy 80.01 93.98) (xy 80.01 99.06)
 		)
 		(stroke
@@ -703,6 +725,16 @@
 			(type default)
 		)
 		(uuid "58bc2f80-e33f-4211-b2df-5bf17a3e70bd")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6190e2f3-3f59-4e3d-8f68-74bc76f853b3")
 	)
 	(wire
 		(pts
@@ -736,6 +768,26 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 99.06) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c93003d-dc75-4587-9f1e-a15a7e73a43d")
+	)
+	(wire
+		(pts
+			(xy 99.06 95.25) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76b49b2-6e86-4165-901c-ebc179060aa8")
+	)
+	(wire
+		(pts
 			(xy 45.72 68.58) (xy 45.72 78.74)
 		)
 		(stroke
@@ -743,6 +795,86 @@
 			(type default)
 		)
 		(uuid "d8d02535-75f8-437a-88ef-f05e4560b40d")
+	)
+	(wire
+		(pts
+			(xy 99.06 72.39) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee44910-2202-4f62-ba87-2a8e0bfd81b3")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 99.06 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "026a124c-9780-475e-9266-9d137c8d577a")
+		(property "Reference" "D2"
+			(at 101.6 73.3424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 101.6 75.8824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b220825-cf08-4ee3-9cfe-8088321d99eb")
+		)
+		(pin "2"
+			(uuid "30bac87b-5421-4e72-a795-e6126b39d344")
+		)
+		(instances
+			(project "Simple_LED"
+				(path "/5bb29c81-3bb8-4c79-8b92-0b92f90eac6b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Dual_x2")
@@ -890,6 +1022,76 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 99.06 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3d72a06-e349-43cb-a408-b30af19d326e")
+		(property "Reference" "R2"
+			(at 101.6 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 101.6 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bc32923-28b9-4fea-9db1-675b4f781f92")
+		)
+		(pin "1"
+			(uuid "e3fb74f4-9c20-417a-b5a1-a0597663404e")
+		)
+		(instances
+			(project "Simple_LED"
+				(path "/5bb29c81-3bb8-4c79-8b92-0b92f90eac6b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 80.01 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -916,7 +1118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.01 91.44 0)
 			(effects
 				(font
@@ -986,7 +1188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 80.01 78.74 0)
 			(effects
 				(font
