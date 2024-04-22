@@ -902,7 +902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 54.61 63.5 0)
 			(effects
 				(font
@@ -978,7 +978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
 			(at 45.72 82.296 90)
 			(effects
 				(font
