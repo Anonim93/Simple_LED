@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber Simple_LED_SMD/")
 		)
 	)
 	(net 0 "")
@@ -92,7 +92,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "F.SilkS")
 			(uuid "307d0d5f-8c60-43d2-9bdb-58ff6166bfe8")
 			(effects
@@ -103,7 +103,7 @@
 			)
 		)
 		(property "Value" "R_Small_US"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "113d1873-503d-4707-947f-27410c6aa6b6")
 			(effects
@@ -255,7 +255,7 @@
 			(uuid "81dd4879-8b64-4d0e-98a3-d96d14293a81")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "84d7f600-5d6e-4d73-b620-e9e1fa2083f4")
 			(effects
@@ -302,7 +302,7 @@
 		(descr "LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "F.SilkS")
 			(uuid "3e2be151-545a-4256-ab74-4d4de83e4ef5")
 			(effects
@@ -313,7 +313,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "e03117d6-562d-4602-928c-dd3f8a4a3569")
 			(effects
@@ -476,7 +476,7 @@
 			(uuid "b05744a1-0a75-472b-b32b-87b4b9126b11")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6d3eaf1e-40c8-4183-89f6-6e9abc87ea7a")
 			(effects
@@ -525,7 +525,7 @@
 		(descr "LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "F.SilkS")
 			(uuid "eb975e9c-c5c6-42b4-8ebd-6e0d83784e9f")
 			(effects
@@ -536,7 +536,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "4eb0a32f-9d45-473d-9cea-a744e19d558d")
 			(effects
@@ -699,7 +699,7 @@
 			(uuid "14486098-815e-4d5f-85d3-be2fd3280b2b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "566367e9-dcf2-40a7-849a-044c5f40e47e")
 			(effects
@@ -748,7 +748,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "F.SilkS")
 			(uuid "2d2737b4-5384-4fa7-89a6-69a194053774")
 			(effects
@@ -759,7 +759,7 @@
 			)
 		)
 		(property "Value" "R_Small_US"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "ca3f0b40-0d97-40c4-965a-88046401519f")
 			(effects
@@ -911,7 +911,7 @@
 			(uuid "00d328a6-cdc9-4103-b1b7-7cb8f981b717")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "4acd5e69-bbc6-4986-914c-2004647f15be")
 			(effects
