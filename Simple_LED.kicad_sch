@@ -663,6 +663,164 @@
 				)
 			)
 		)
+		(symbol "soundskrit_skr04xx:soundskrit_skr400_v1.0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U4"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Soundskrit SKR400"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "soundskrit_skr4xx_v2402:soundskrit_skr4xx_v2402"
+				(at 24.13 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Soundskrit Analog microphone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "soundskrit_skr400_v1.0_0_1"
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy 15.24 -1.27) (xy 15.24 -16.51) (xy 0 -16.51) (xy -3.81 -16.51) (xy -3.81 -8.89)
+						(xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "soundskrit_skr400_v1.0_1_1"
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -19.05 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 80.01 68.58)
@@ -902,7 +1060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 54.61 63.5 0)
 			(effects
 				(font
@@ -951,6 +1109,83 @@
 		)
 	)
 	(symbol
+		(lib_id "soundskrit_skr04xx:soundskrit_skr400_v1.0")
+		(at 140.97 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a4f9dd1-5cbe-42e5-b124-c3dac7d9978b")
+		(property "Reference" "U1"
+			(at 146.685 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Soundskrit SKR400"
+			(at 146.685 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "soundskrit_skr04xx:soundskrit_skr4xx_v2402"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Soundskrit Analog microphone"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c12d173e-3240-4e17-ba1d-4189f36c4db9")
+		)
+		(pin "5"
+			(uuid "a9bc1b45-60ca-4a42-a314-d00ee1df4fd0")
+		)
+		(pin "2"
+			(uuid "54e60deb-519b-4955-9718-0986c1564e8b")
+		)
+		(pin "4"
+			(uuid "21c919d9-58e1-4b5b-afe4-19ebacd3e2bf")
+		)
+		(pin "1"
+			(uuid "e7eab912-77aa-4897-981a-0b9555b95b00")
+		)
+		(instances
+			(project "Simple_LED"
+				(path "/5bb29c81-3bb8-4c79-8b92-0b92f90eac6b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 45.72 83.82 0)
 		(unit 1)
@@ -978,7 +1213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
 			(at 45.72 82.296 90)
 			(effects
 				(font
